@@ -61,6 +61,9 @@ and traffic being the priority over speed.
 
 There a far many more situations that the AI will encounter that I have not mentioned. Some of the decision making will be purely training based. For example, how to drive/maintain lanes. It will take 100's of hours of training and balancing the data before the AI can confidently make decisions on the road. As for the object recognition, it serves as a backbone for the AI. As you can imagine, if you were the AI you would have no clue what to do. The GTA world is so complex, it needs to be specifically trained to recognize what is coming around the corner, and to be prepared for the unexpected. 
 
+![after recognition](https://github.com/NoahNaugle/gtaVision/blob/master/Img/CNN_SSD_training_ELI5.jpg)
+Above is some proven tests on the data/images I gather using tensorflow. 
+
 ## Other considerations
 After the object recognition is completed, trained and passed complete stage, I would be very interested in training agents like a firefighter, taxi driver that reads directions from the minimap, or a semi-truck driver. Each has to respond to different situations differently, which could be cool to watch how each interacts with the environment. This is very far down the road in the project I just thought I would mention it.
 
